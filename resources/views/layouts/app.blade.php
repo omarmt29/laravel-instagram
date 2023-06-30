@@ -19,7 +19,7 @@
 
 <body class="bg-slate-900">
 
-
+    @csrf
     <div id="app">
         @include('partials.nav')
         <main class="pt-16">
